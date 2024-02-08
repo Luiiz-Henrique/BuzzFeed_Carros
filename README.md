@@ -1,27 +1,28 @@
-# Buzzfeed
+# Quiz dos Carros
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+Este é um projeto inspirado nos quizzes do BuzzFeed, onde você poderá descobrir se é mais parecido com o Relâmpago McQueen ou o Mate, personagens da franquia Carros da Disney Pixar. O quiz foi desenvolvido em Angular e aborda conceitos como diretivas, algoritmos básicos de quiz, HTML, CSS, e conceitos de data-binding.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Quiz interativo para descobrir sua afinidade com os personagens de Carros.
+- Utiliza Angular para criar uma experiência dinâmica e envolvente.
+- Apresenta uma série de perguntas com opções de resposta.
+- No final do quiz, revela se você é mais parecido com o Relâmpago McQueen ou o Mate.
+- Possui um design inspirado no universo de Carros, com elementos visuais atraentes.
 
-## Code scaffolding
+## Como Usar
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone este repositório para sua máquina local.
+2. Navegue até o diretório do projeto.
+3. Instale as dependências utilizando o comando `npm install`.
+4. Inicie a aplicação com o comando `ng serve`.
+5. Acesse o quiz em seu navegador, utilizando o endereço `http://localhost:4200`.
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Insira aqui os screenshots do projeto:
 
-## Running unit tests
+![Captura de Tela 1](./home_quiz.png)
+![Captura de Tela 2](./result_quiz.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Divirta-se descobrindo qual personagem de Carros você mais se parece!
