@@ -1,0 +1,70 @@
+{
+  "title":"Quem você seria? o Relâmpago McQueen ou seu melhor amigo Mate?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Quando você está em uma situação desafiadora, como você reage?",
+      "options":[
+        {"id": 1, "name":"Aumento a velocidade para superar o obstáculo.", "alias":"A"},
+        {"id": 2, "name":"Peço ajuda aos meus amigos para encontrar uma solução.", "alias":"B"},
+        {"id": 3, "name":"Procuro entender o problema em detalhes antes de tomar uma decisão.", "alias":"A"},
+        {"id": 4, "name":" Avalio calmamente a situação antes de agir.", "alias":"B"},
+        {"id": 5, "name":"Vejo o lado positivo da situação e tento manter um bom humor.", "alias":"B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Em uma viagem de férias, o que você prefere fazer?",
+      "options":[
+        {"id": 1, "name":"Explorar novos lugares e experimentar atividades emocionantes.", "alias":"A"},
+        {"id": 2, "name":"Participar de eventos culturais e interagir com os habitantes locais.", "alias":"B"},
+        {"id": 3, "name":"Relaxar e desfrutar de momentos tranquilos em um ambiente familiar.", "alias":"B"},
+        {"id": 4, "name":"Fazer um roteiro flexível e aproveitar o tempo com os amigos.", "alias":"B"},
+        {"id": 5, "name":"Planejar cuidadosamente cada detalhe da viagem para garantir uma experiência memorável.", "alias":"A"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Como você se sente em grandes eventos sociais?",
+      "options":[
+        {"id": 1, "name":"Animado e pronto para competir ou fazer uma apresentação.", "alias":"A"},
+        {"id": 2, "name":"Alegre e pronto para aproveitar a companhia dos amigos.", "alias":"B"},
+        {"id": 3, "name":"Um pouco desconfortável, mas estou disposto a dar apoio aos outros.", "alias":"B"},
+        {"id": 4, "name":"Feliz em participar, desde que seja um ambiente descontraído e amigável", "alias":"A"},
+        {"id": 5, "name":" Relaxado, preferindo estar nos bastidores, mas sempre pronto para ajudar.", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Como você lida com mudanças repentinas ou imprevistos?",
+      "options":[
+        {"id": 1, "name":"Adapto-me rapidamente e encontro soluções criativas para os problemas.", "alias":"A"},
+        {"id": 2, "name":"Peço conselhos aos meus amigos e confio na minha intuição.", "alias":"B"},
+        {"id": 3, "name":"Mantenho a calma e procuro manter a estabilidade na situação.", "alias":"B"},
+        {"id": 4, "name":"Encaro os desafios com otimismo e determinação.", "alias":"A"},
+        {"id": 5, "name":"Analiso cuidadosamente a situação antes de tomar uma decisão.", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual é a sua abordagem preferida para resolver um conflito entre amigos?",
+      "options":[
+        {"id": 1, "name":"Tento resolver o problema o mais rápido possível, priorizando a competição.", "alias":"A"},
+        {"id": 2, "name":"Convido meus amigos para uma conversa aberta e honesta para encontrar uma solução juntos.", "alias":"B"},
+        {"id": 3, "name":"Escuto atentamente todas as partes envolvidas antes de propor uma solução.", "alias":"B"},
+        {"id": 4, "name":"Mantenho o bom humor e tento amenizar a situação com uma piada ou gesto amigável.", "alias":"B"},
+        {"id": 5, "name":"Analiso a situação de forma objetiva e proponho uma solução baseada em fatos e evidências.", "alias":"A"}
+      ]
+    }
+  ],
+  "results":{
+    "A": {
+      "text": "Você muito provavelmente seria o Relâmpago McQueen!",
+      "image": "../../../assets/images/relampago-mcqueen.png"
+    },
+    "B": {
+      "text": "Você muito provavelmente seria o Mate!",
+      "image": "../../../assets/images/Mate.png"
+    }
+  }
+}
