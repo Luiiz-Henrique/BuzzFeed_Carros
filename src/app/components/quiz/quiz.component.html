@@ -1,0 +1,35 @@
+<div class="container_quiz">
+    <div class="quiz_logo">
+        <img src="../../../assets/images/logo.png" alt="" srcset="">
+        <h3> {{ title }} </h3>
+    </div>
+
+    <div *ngIf="!finished" class="quiz_questions">
+        <h3> {{ questionSelected.question }} </h3>
+    </div>
+
+    <div *ngIf="!finished" class="quiz_options">
+        <button 
+        *ngFor=" let option of questionSelected.options; let i = index"
+        (click)="playerChoose(option.alias)"
+        class="options_button">
+            {{ option.name }}
+        </button>
+    </div>
+
+    <div *ngIf="finished" class="quiz_result">
+        <h1>O seu resultado é: </h1>
+        <p> {{ answerSelected }} </p>
+        <div class="result_img">
+            <img [src]="imageCharacte" alt="personagem do filme Carros">
+        </div>
+    </div>
+</div>
+
+<!-- 
+    diretivas
+    algoritmo básico de quiz
+    html
+    css
+    conceito de data-biding
+ -->
